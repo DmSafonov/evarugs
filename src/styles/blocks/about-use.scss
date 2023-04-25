@@ -5,10 +5,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    
     background-image: url(/src/images/pictures/main/main-background.png);
     background-repeat: no-repeat;
-    background-position: top 50px right 10px;
+    background-position: top 52px right 0px;
     background-size:  100%;
 }
 .about-use__link{
@@ -19,12 +19,15 @@ font-size: 18px;
 line-height: 21px;
 margin-bottom: 40px;
 padding-top: 10px;
+position: relative;
+top: -3px;
+left: 16px;
 }
 .about-use__link::before{
     content: url('/src/images/icons/main/main-logo.svg');
     position: absolute;
-    left: 55px;
-    top: 0px
+    left: -67px;
+    top: 1px
 }
 .about-use__product{
     width: 194px;
@@ -41,14 +44,21 @@ padding-top: 10px;
     margin-bottom: 10px;
 }
 .about-use__button{
+    font-family: 'Roboto-black',serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 12px;
     background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
     border-radius: 7px;
     color: $three;
-    padding: 9px 20px 8px 20px;
-    margin-bottom: 30px;
+    padding: 9px 21px 8px 21px;
+    margin-bottom: 50px;
 }
 .about-use__what-is-this{
-    margin-bottom: 50px;
+    font-family: 'Roboto-regular',serif;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 55px;
 }
 .about-use__eva{
     background: linear-gradient(180deg, #B90160 0%, #3D5BF5 100%);
