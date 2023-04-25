@@ -1,0 +1,32 @@
+
+.details__container{
+    max-width: 264px;
+    width: 100%;
+    margin: 0 auto;
+}
+.details__item{
+    box-shadow: 0px 0px 40px rgba(184, 0, 95, 0.2);
+    border-radius: 9px;
+    margin-bottom: 25px;
+}
+.details__image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details__item-block{
+    padding: 22px 25px 22px 17px;
+}
+.details__headline{
+    font-family: 'Roboto-bold', serif;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.details__description{
+    color: $second;
+    font-family: 'Roboto-light', serif;
+    font-size: 14px;
+    line-height: 16px;
+}

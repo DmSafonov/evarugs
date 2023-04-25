@@ -1,0 +1,57 @@
+.about-use{
+    padding-top: 26px;
+}
+.about-use__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-image: url(/src/images/pictures/main/main-background.png);
+    background-repeat: no-repeat;
+    background-position: top 50px right 10px;
+    background-size:  100%;
+}
+.about-use__link{
+font-family: 'Roboto-black-italic', serif;
+text-transform: uppercase;
+color: $first;
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 40px;
+padding-top: 10px;
+}
+.about-use__link::before{
+    content: url('/src/images/icons/main/main-logo.svg');
+    position: absolute;
+    left: 55px;
+    top: 0px
+}
+.about-use__product{
+    width: 194px;
+    font-family: 'Roboto-black', serif;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about-use__city{
+    font-family: 'Roboto-light', serif;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.about-use__button{
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    border-radius: 7px;
+    color: $three;
+    padding: 9px 20px 8px 20px;
+    margin-bottom: 30px;
+}
+.about-use__what-is-this{
+    margin-bottom: 50px;
+}
+.about-use__eva{
+    background: linear-gradient(180deg, #B90160 0%, #3D5BF5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

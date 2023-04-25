@@ -1,0 +1,26 @@
+.header{
+    background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+    color: $three;
+    padding-top: 22px;
+    padding-bottom: 11px;
+}
+.header__contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__phone{
+    font-family: 'Roboto-medium', serif;
+    font-size: 14px;
+    line-height: 10px;
+}
+.header__phone:first-child{
+    margin-bottom: 8px;
+}
+.header__city{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: 'Roboto-light', serif;
+    font-size: 17px;
+    line-height: 16px;
+}
