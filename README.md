@@ -1,15 +1,8 @@
-# 🚀 Welcome to your new awesome project!
+Запуск проекта: npm run serve
+Сборка проекта: npm run build
 
-This project has been created using **webpack-cli**, you can now run
+Ссылка на проект:
+https://www.figma.com/file/7U4IltFioiIgcHA2BWsuIu/EVARUGS-%2B?node-id=132-314&t=utyPozBipubFk9qm-0
 
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application
+Ментор:
+https://github.com/kan88
